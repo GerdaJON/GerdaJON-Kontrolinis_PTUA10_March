@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    background-color:rgb(196, 186, 172);
+}
+
+header {
+    background-color: rgb(41, 58, 72);
+    color: rgb(201, 172, 118);
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(41, 58, 72);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(41, 58, 72);
+}
+
+nav ul li {
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(201, 172, 118);
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    color: rgba(128, 128, 128, 0.87);
+}
+
+header,
+nav,
+#top-section,
+#experience,
+#education,
+#project-content,
+footer {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#top-section img {
+    width: 200px;
+    border-radius: 20%;
+    margin-right: 20px;
+    box-shadow: 0 0 8px 8px grey;
+}
+
+#top-section div ul li {
+    text-align: left;
+}
+
+#experience {
+    background-color: rgb(41, 58, 72);;
+}
+
+#experience h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(201, 172, 118);;
+}
+
+#experience h5 {
+    color: rgb(201, 172, 118);
+    font-style: italic;
+}
+
+#experience p {
+    text-align: justify;
+}
+
+#project-content img {
+    width: 100px;
+}
+
+#project-content #article-content div {
+    flex: 0 1 300px;
+    background-color: rgb(41, 58, 72);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    color: rgb(201, 172, 118);
+}
+
+#article-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(41, 58, 72);
+    color: rgb(201, 172, 118);
+    padding: 10px 0;
+    line-height: 30px;
+    font-weight: bolder;
+}
+
+footer p {
+    margin: 0 auto;
+}
+
+#education {
+    background-color: white;
+}
+
+#education div {
+    justify-content: space-between;
+    padding: 10px 0;
+    margin: 10px;
+}
+
+#education h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(41, 58, 72);
+}
+
+#education h5 {
+    color: #444;
+    font-style: italic;
+}
+
+#experience .note {
+    margin-bottom: 30px;
+    border: none;
+    border-top: 2px solid rgb(201, 172, 118);
+    margin: 20px 0;
+}
+
+#education {
+    background-color: rgb(201, 172, 118);
+}
+
+#education .education-note {
+    margin-bottom: 30px;
+    border: none;
+    border-top: 2px solid rgb(41, 58, 72)
+}
+
+#project-content #article-content div h2 {
+    color: rgb(201, 172, 118);
+}
+
+#top-section .intro p {
+    text-align: justify;
+}
+
+#project-content #article-content div p {
+    text-align: justify;
+}
+
+#experience .note h4 {
+    font-size: 20px;
+    color: rgb(196, 186, 172);
+}
